@@ -1,0 +1,22 @@
+   h1 {
+            font-size: 65px;
+            color: orange;
+            font-family: sans-serif;
+            }
+        ul {
+         background-color: gray;
+        }
+        .bg-style {
+          background-color: rgb(231, 196, 225);
+        }
+        p {
+          font-weight: 600;
+          font-size: 3em;
+        }
+        body {
+          font-size: 16px;
+          font-style: oblique;
+          line-height: 50px;
+          text-align: left;
+          text-decoration:none ;
+          }
