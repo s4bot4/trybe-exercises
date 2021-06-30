@@ -185,16 +185,22 @@ console.log(isEven);
 
 
 10 -  Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda.*/
-let valorVenda = 9500.00;
-let valorCusto = 4000.00;
+let valorDeVenda = 9500.00;
+let valorDeCustoUnitario = 4000.00;
 let impostoSobreOCusto = 1.20;
-let valorDeLucroTotal = 1000
+let totalDeProdutos = 1000
 
-9500.00 = valorCusto + impostoSobreOCusto
-/*A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
- Atente que, sobre o custo do produto, incide um imposto de 20%.*/
 
-valorDeLucroTotal = (valorVenda * - (valorCusto * impostoSobreOCusto));
+/*A partir dos valores, calcule quanto de lucro (valor de venda descontado o 
+custo do produto) a empresa terá ao vender mil desses produtos.*/
+valorDeVenda = (valorDeCustoUnitarioTotal * totalDeProdutos)
+
+/* Atente que, sobre o custo do produto, incide um imposto de 20%.
+
+ - O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.*/
+
+ valorCustoUnitarioTotal = (valorVenda - (valorCustoUnit * impostoSobreOCusto));
+
 
 /*- Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.*/
 if (valorVenda < 0 || valorCusto < 0 || impostoSobreOCusto < 0) {
@@ -204,7 +210,7 @@ console.log("Erro. Valor inválido")
 
 
 
-- O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
+
 
 
 
