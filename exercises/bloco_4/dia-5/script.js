@@ -2,13 +2,13 @@ document.getElementById('page-title').innerText = 'aprendizado da aula de hoje';
 document.getElementById('second-paragraph').innerText = 'destruindo o site';
 document.getElementById('subtitle').innerText = 'SITE HACKEADO by S4BOT4';
 // 
-Document.getelementsbyclassname('nome de classe');
+document.getelementsbyclassname('nome de classe');
 //exemplo de uso acessando um elemento de uma lista
 document.getElementById('page-title').innerText = 'aprendizado da aula de hoje';
 
 document.getElementsByClassName("pilotos-f1-atual")[0].innerText = "Stroll";
 //acessando varios elementos e substituindo-os
-let pilotosDeF1 = document.getElementsByClassName("pilotos-f!-atual");
+let pilotosDeF1 = document.getElementsByClassName("pilotos-f1-atual");
 
 for (let i = 0; i < pilotosDeF1.length; i += 1) {
   pilotosDeF1[i]. innerText = "Lewis Hamilton";
@@ -38,4 +38,5 @@ document.querySelectorAll(".pilotos-sem-titulo .pilotos-f1-atual ");
 
 
 
-
+textMaiusculo = document.getElementsByTagName("p")[0].innerText.toUpperCase();
+document.getElementsByTagName("p")[0].innerText = textMaiusculo;
