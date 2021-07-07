@@ -1,0 +1,1 @@
+document.getElementById('pai').innerHTML = 'texto alterado FILHA DA PUTA'
