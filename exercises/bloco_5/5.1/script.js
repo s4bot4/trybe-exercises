@@ -19,8 +19,8 @@ let urgent = document.getElementsByTagName("h3");
 
 urgent[0].style.backgroundColor = '#ef476f';
 urgent[1].style.backgroundColor = '#ef476f';
-urgent[2].style.backgroundColor = '#219ebc';
-urgent[3].style.backgroundColor = '#219ebc';
+urgent[2].style.backgroundColor = 'black';
+urgent[3].style.backgroundColor = 'black';
 
 
 
