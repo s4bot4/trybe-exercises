@@ -3,20 +3,51 @@
   <body>
     <header>
       <h2 id="page-title">Título</h2>
-      <p id="paragraph">Dê uma cor para este parágrafo!</p>
-      <h4 id="subtitle">Subtítulo</h4>
-      <p id="second-paragraph">Segundo parágrafo!</p>
+      <p class="film-text">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4> 
+      <p class="film-text">Segundo parágrafo!</p>
     </header>
     <script>
 
-// Fixando exercicios de DOM e seletores        
-      const paragraph = document.getElementById("paragraph");
-      paragraph.style.color = "red";
-document.getElementById('page-title').innerText = 'Pulp Fiction';
-document.getElementById('paragraph').innerText = 'TEMPO DE VIOLÊNCIA'
-document.getElementById('subtitle').innerText =  'Dirigido por Quentin Tarantino';
-document.getElementById('second-paragraph').innerText = 'OST - MISIRLOU'
+// Fixando exercicios de DOM e seletores fazendo a seleção de elementos usando classe - classe sempre é um array, então indicar posição.        
 // Fixando exercicios de DOM e seletores
-    </script>
+
+//let paragraphs = document.getElementsByClassName("film-text");
+//console.log((paragraphs));
+
+//paragraphs[0].innerText. = 'Pulp Fiction';
+//paragraphs[1].innerText = 'TEMPO DE VIOLÊNCIA'
+
+//for ( let i = 0; i < paragraphs.length; i += 1) {
+  //paragraphs[i].style.color = 'red';
+
+ //paragraphs[0].innerHTML= 'Pulp Fiction';
+
+ //Selecionando o elemento por id: document.getElementById
+//('subtitle').innerText =  'Dirigido por Quentin Tarantino';
+
+//document.getElementById('second-paragraph').innerText = 'OST - MISIRLOU'
+
+//fazendo a seleção de elementos usando Tagname sempre é um array, então indicar posição.        
+
+//let element = document.getElementsByTagName('p');
+//console.log((element));
+
+//element[0].innerText = 'Pulp';
+//element[1].innerText = 'Fiction';
+
+//QuerySelector retorna apenas um elemento - e o primeiro elemento que for encontrado. Trabalha seletores CSS.
+
+//console.log(document.querySelector('#page-title'));
+
+//console.log(document.querySelector('p'));
+
+//console.log(document.querySelector('.film-text')); 
+
+// querySelectorAll precisa especificar posição pois retorna uma node list
+console.log(document.querySelectorAll('p').length);
+
+
+</script>
   </body>
 </html>
