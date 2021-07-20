@@ -1,44 +1,31 @@
-let person = {
-  name: 'Thiago',
-  lastName: 'Ferreira',
-  canDrive: true,
-  age: 42,
-  favoriteMovies: ['Clube da Luta', 'Batman Origins'],
-  address {
-    street: 'Rua XYZ',
-    number: 190,
-    city: 'São Paulo'
-  }
-}
 
-    //Notacao de ponto (dot notation)
-    console.log(person.name);
-    
-    // NOTACAO DE COLCHETES (BRACKET NOTATION)
-    console.log(person['age']);
+let car = {
+  type: 'Fiat',
+  model: '500',
+  color: 'white',
+  models:['Toro', 'Siena', 'Tempra', 'Argo']
+};
+car['typeColor'] = car.type + ' ' + car.color;
 
-    let someProperty = 'favoriteMovies';
-    console.log(person[someProperty]);
-}
+//acesar a propriedade car type: 
+//car.type
+
+//acessar a propriedade car através de colchetes: 
+//car['type']
+
+console.log ('O novo carro da ' + car['type'] + ' modelo ' + car.model + " é da cor " + car.color);
+//console.table(car);
 
 
-function greet(name, age) {
-   console.log('O(A) ' + name + ' possui ' + age + "anos.");
-}
-greet('Ana',25);
 
 
-function makeGreeting(name, age) {
-  return 'E aí ' + name + '? Tudo bem com você? Você tem ' + age + ' anos.'; 
-}
 
-let greetings = makeGreeting('Vinicius', 23);
-console.log(greetings)
 
-function sum(a, b) {
-  return a + b;
-}
-let a = 5;
-let b = 7;
-resultadosoma = sum()
-console.log (resultadosoma)
+
+
+
+
+
+
+
+
