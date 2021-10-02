@@ -1,4 +1,4 @@
-body {
+/* body {
   min-height: 100vh;
   background-color: #303030;
   color: #fafafa;
@@ -7,7 +7,7 @@ body {
   justify-content: center;
 }
 ​
-ul {
+ul {a
   list-style: none;
 }
 ​
@@ -17,4 +17,4 @@ ul {
   display: inline-block;
   margin-right: 5px;
   border-radius: 4px;
-}
+} */
